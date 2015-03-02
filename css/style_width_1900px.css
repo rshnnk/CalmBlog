@@ -1,0 +1,307 @@
+/*******************************************************************
+********************************Main Body Properties****************
+*******************************************************************/
+/******************************************************************
+****************Main Link Properties******************************
+******************************************************************/
+/****************************************************************
+****************Main Headings Properties*************************
+****************************************************************/
+/*********************************************
+****************Headings Size Formuls******
+*********************************************/
+/*----------------------------------------------------------------
+                        RESET DEFAULT STYLES
+-----------------------------------------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font: 13px Arial, sans-serif;
+  background: #ffffff;
+  color: #000000;
+}
+div,
+p,
+a,
+span,
+em,
+strong,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+td,
+tr,
+form,
+fieldset,
+label,
+select,
+input,
+textarea {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1 {
+  font-size: 33px;
+}
+h2 {
+  font-size: 27px;
+}
+h3 {
+  font-size: 23px;
+}
+h4 {
+  font-size: 17px;
+}
+h5 {
+  font-size: 13px;
+}
+h6 {
+  font-size: 11px;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  vertical-align: middle;
+}
+textarea {
+  vertical-align: top;
+}
+:focus {
+  outline: none;
+}
+input[type=submit] {
+  cursor: pointer;
+}
+img,
+fieldset {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a,
+a:link,
+a:visited {
+  font: 13px inherit, sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrapp {
+  margin: 0 auto;
+  width: 1170px;
+}
+body header {
+  overflow: hidden;
+  background: #ffffff;
+}
+body header .header-wrapp {
+  margin: 0 auto;
+  width: 1170px;
+}
+body header .header-wrapp > h1 {
+  padding: 20px 0 25px 0;
+  float: left;
+}
+body header .header-wrapp > h1 > a {
+  color: #34495e;
+}
+body header .header-wrapp > h1 > a > span {
+  color: #1abc9c;
+}
+body header .header-wrapp > h1 > span {
+  color: #bdc3c7;
+  padding: 0 0 0 10px;
+  font-size: 10pt;
+}
+body header .header-wrapp > ul {
+  padding: 20px 0 25px 0;
+  margin: 0 150px 0 0;
+  float: right;
+  overflow: hidden;
+}
+body header .header-wrapp > ul > li {
+  float: left;
+  padding: 0 0 0 10px;
+}
+body header .header-wrapp > ul > li > a {
+  color: #bdc3c7;
+}
+body header .header-wrapp > a {
+  padding: 20px 0 25px 0;
+  float: right;
+  overflow: hidden;
+}
+body .tagline-social-block {
+  background: #ffffff;
+  overflow: hidden;
+}
+body .tagline-social-block .tagline-social-wrapp {
+  margin: 0 auto;
+  width: 1170px;
+}
+body .tagline-social-block .tagline-social-wrapp > h2 {
+  overflow: hidden;
+  float: left;
+  margin: 70px 0 60px 0;
+  color: #d3d7da;
+}
+body .tagline-social-block .tagline-social-wrapp > h2 > p {
+  padding: 10px  0 0 0;
+  color: #d3d7da;
+  font-size: 10pt;
+}
+body .tagline-social-block .tagline-social-wrapp > ul {
+  margin: 70px 0 0 0 ;
+  overflow: hidden;
+  float: right;
+}
+body .tagline-social-block .tagline-social-wrapp > ul > li {
+  color: #d3d7da;
+  padding: 0 0 20px 0;
+}
+body .tagline-social-block .tagline-social-wrapp > ul > li > a {
+  padding: 0 5px;
+}
+body .widdget-block {
+  overflow: hidden;
+  background: #34495e;
+}
+body .widdget-block .widdget-wrapp {
+  margin: 0 auto;
+  width: 1170px;
+}
+body .widdget-block .widdget-wrapp > p {
+  margin: 40px 0 0 0;
+  color: #fff;
+  text-align: center;
+}
+body .widdget-block .widdget-wrapp > p > a {
+  padding: 0 10px;
+  color: #fff;
+}
+body .widdget-block .widdget-wrapp .widdget {
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  margin: 40px 0 0 0;
+}
+body .widdget-block .widdget-wrapp .widdget > li {
+  float: left;
+  padding: 0 20px 20px 0 ;
+}
+body .widdget-block .widdget-wrapp .widdget > li > p {
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: white;
+}
+body .widdget-block .widdget-wrapp .widdget > li > p > span {
+  color: #abb3b9;
+}
+body footer {
+  background: #ffffff;
+}
+body footer .footer-wrapp {
+  margin: 0 auto;
+  width: 1170px;
+}
+body footer .footer-wrapp .footer-content {
+  overflow: hidden;
+  border-bottom: 1px solid #ecf0f1;
+}
+body footer .footer-wrapp .footer-content > li {
+  padding: 60px 0 60px 0;
+  width: 270px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+body footer .footer-wrapp .footer-content > li > h4 {
+  color: #d3d7da;
+  margin: 0 0 40px 0;
+}
+body footer .footer-wrapp .footer-content > li > p {
+  padding: 5px 0 0 0;
+  color: #d3d7da;
+}
+body footer .footer-wrapp .footer-content > li > p > img {
+  padding: 0 1px  0 0;
+}
+body footer .footer-wrapp .footer-content > li .post-list > li {
+  padding: 0 0 20px 0 ;
+  color: #c1c7cb;
+}
+body footer .footer-wrapp .footer-content > li .post-list > li > p {
+  color: #c1c7cb;
+}
+body footer .footer-wrapp .footer-content > li .latest-comment-list > li {
+  width: 270px;
+  background: #ecf0f1;
+  padding: 15px;
+  margin: 0 0 10px 0;
+}
+body footer .footer-wrapp .footer-content > li .latest-comment-list > li > a {
+  color: #cacfd2;
+}
+body footer .footer-wrapp .footer-content > li .photostream-img {
+  overflow: hidden;
+}
+body footer .footer-wrapp .footer-content > li .photostream-img > li {
+  float: left;
+}
+body footer .footer-wrapp .footer-content > li .photostream-img > li > a > img {
+  padding: 0 5px 10px 0;
+}
+body footer .footer-wrapp > h5 {
+  float: left;
+  color: #d3d7da;
+  padding: 35px 0;
+}
+body footer .footer-wrapp .footer-menu {
+  padding: 35px 0;
+  float: right;
+}
+body footer .footer-wrapp .footer-menu > li {
+  float: left;
+}
+body footer .footer-wrapp .footer-menu > li > a {
+  padding: 0 10px 0 0;
+  color: #d3d7da;
+}
